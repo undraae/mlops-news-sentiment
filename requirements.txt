@@ -1,0 +1,7 @@
+"numpy<2"
+pandas
+requests
+torch
+transformers
+scikit-learn
+
