@@ -1,0 +1,3 @@
+2026-05-08 14:49:38.792 | INFO     | __main__:fetch_news:15 - Fetching feed: https://rss.nytimes.com/services/xml/nyt/HomePage.xml
+2026-05-08 14:49:39.237 | INFO     | __main__:fetch_news:15 - Fetching feed: https://feeds.bbci.co.uk/news/rss.xml
+2026-05-08 14:49:39.848 | INFO     | __main__:save_to_csv:36 - Saving 38 articles to data/raw_news.csv

@@ -1,7 +1,9 @@
-"numpy<2"
+numpy<2
 pandas
 requests
 torch
 transformers
 scikit-learn
+feedparser==6.0.11
+loguru==0.7.2
 
