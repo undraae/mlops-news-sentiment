@@ -16,3 +16,17 @@ This project is an end-to-end pipeline for news sentiment analysis.
    ```bash
    make install
 
+## Workflow
+
+1. Collect news data
+2. Store raw data
+3. Perform sentiment analysis using Hugging Face Transformers
+4. Save processed results to data/processed
+
+## Output
+
+The pipeline generates a sentiment analysis dataset containing:
+- News title
+- Sentiment label
+- Confidence score
+
