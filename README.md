@@ -43,6 +43,28 @@ The pipeline generates a sentiment analysis dataset containing:
 
 GitHub Actions automatically executes tests on every push to ensure code quality and pipeline stability.
 
+## MLflow experiment tracking
+
+MLflow is used to track pipeline execution metrics and experiment runs.
+
+Tracked metrics:
+
+- articles_processed
+- positive_articles
+- negative_articles
+
+Tracked parameters:
+
+- sentiment model name
+
+## Testing
+
+Run tests locally:
+
+ - pytest
+
+GitHub Actions automatically executes tests on every push to ensure code quality and pipeline stability.
+ 
 ## Future Improvements
 
 - MLflow experiment tracking
