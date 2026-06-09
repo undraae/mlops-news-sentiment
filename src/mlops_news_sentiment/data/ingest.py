@@ -2,7 +2,7 @@ import os
 import feedparser
 import pandas as pd
 from datetime import datetime
-from mlops_news_sentiment.config import RAW_NEWS_CSV, RSS_FEEDS
+from src.mlops_news_sentiment.config import RAW_NEWS_CSV, RSS_FEEDS
 from loguru import logger
 
 def fetch_news():
